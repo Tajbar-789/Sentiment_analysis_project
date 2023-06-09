@@ -1,8 +1,8 @@
 # Sentiment_analysis_project
 This repository contains the code for sentiment analysis data pipeline which is hosted on a EC2 Machine on pyspark-hadoop environment .
 
-#Architechture
+## Architechture
 
-#Dataset
+## Dataset
 
-#Data Pipeline Flow
+## Data Pipeline Flow

@@ -10,7 +10,7 @@ This is the sentiment140 dataset. It contains 1,600,000 tweets extracted using t
 ### Content
 It contains the following 6 fields:
 
-1. target: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
+1. target: the polarity of the tweet (0 = negative,  4 = positive)
 
 2. ids: The id of the tweet ( 2087)
 

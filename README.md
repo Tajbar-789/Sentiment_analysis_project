@@ -5,6 +5,8 @@ This repository contains the code for sentiment analysis data pipeline which is 
 
 ![architechture](https://github.com/Tajbar-789/Sentiment_analysis_project/assets/54442879/1346b2b4-1c61-4475-af1d-cd69a8afb953)
 
+The twitter dataset is being pulled from kaggle into a local machine for EDA (Exploratory Data Analysis ) and some basic transformations using python . The transformed dataset is then uploaded to Amazon S3 storage for further processing . The dataset is then pulled into Hadoop pyspark environment that is hosted on AWS EC2 instance for preprocessing of the dataset and training of the ML models using the dataset . Apache Airflow is being used to run this complete workflow on this EC2 instance .
+
 ## Dataset
 ### Context
 This is the sentiment140 dataset. It contains 1,600,000 tweets extracted using the twitter api . The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment .

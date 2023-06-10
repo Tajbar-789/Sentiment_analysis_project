@@ -29,3 +29,24 @@ The Preprocessing of the dataset that is uploaded in Hadoop Pyspark environment 
 3. Stop Word removal - The tweets might contain some words that will not help the Machine Learning Models in decision making . These words for e.g. (The , I , They ,we etc) are to be removed in this step.
 4. Stemming - The process of reducing inflection towards their root forms are called Stemming, this occurs in such a way that depicting a group of relatable words under the same stem, even if the root has no appropriate meaning. Stemming is a rule-based approach because it slices the inflected words from prefix or suffix as per the need using a set of commonly underused prefix and suffix, like “-ing”, “-ed”, “-es”, “-pre”, etc.
 5. HashTF and IDF - HashTF Maps a sequence of terms to their term frequencies using the hashing trick. IDF computes the Inverse Document Frequency (IDF) given a collection of documents. These steps convert the stemmed tokens to features that can be used to train the ML models .
+
+## Exploratory Data Analysis (EDA)
+1. count plot showing the number of tweets of different types 
+
+![__results___5_1](https://github.com/Tajbar-789/Sentiment_analysis_project/assets/54442879/e49e0e55-3283-4783-844b-d31db5e8fedc)
+
+2. Word Cloud for postive tweets 
+
+![__results___28_0](https://github.com/Tajbar-789/Sentiment_analysis_project/assets/54442879/03ac1e84-a4c0-4010-9a1a-7fe91d961d62)
+
+3. word Cloud for negative tweets
+
+![__results___30_0](https://github.com/Tajbar-789/Sentiment_analysis_project/assets/54442879/beac792c-98bb-4dfa-961e-b4df1f107bda)
+
+
+## Airflow DAG
+
+![Screenshot (27)](https://github.com/Tajbar-789/Sentiment_analysis_project/assets/54442879/a3344f08-ec4a-4dfa-8cc1-a4af7e679216)
+
+
+
